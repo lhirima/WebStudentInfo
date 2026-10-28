@@ -1,7 +1,7 @@
 let students = [];
 let formMode = "Add";
 let selectedStudentID = -1;
-const baseURL = "http://192.168.100.160/student-info/tae/assets/php/student.php";
+const baseURL = "https://studentinfoapi-23cx.onrender.com/api/students";
 
 const $tbody = $("#student-data");
 
